@@ -180,7 +180,20 @@ https://www.neoguias.com/como-instalar-pip-python/
 
 ***Clase 6 ¡Hola, mundo!***
 
+Unittest(PyTest)
 
+Esta es una librería de python con el que vamos a realizar pruebas unitarias para obtener la información de lo que ocurre con nuestras automatizaciones
+
+- Text Fixture: Preparación para antes y después de la prueba
+    - en otras palabras va a preparar el entorno de nuestra automatización y luego realizará una serie de acciones para cuando termine el caso
+    de prueba que se está realizando
+- Test Case: Unidad de código a probar
+    - el caso de prueba es una unidad de código con la cual le estamos indicando a selenium que es lo que queremos que haga
+- Test Suite: Colección de Test Cases
+    - Colección de distintas pruebas o automatizaciones en un solo archivo para ejecutarlos de manera secuencial
+- Test Runner: Orquestador de la ejecución
+    - Es la parte que se encarga de dirigir que se va a ejecutar, cómo y en qué orden y resultados que nos va arrojar 
+- Test Report: Resumen de resultados
 
 Utilizar comandos básicos
 ***Clase 7 Encontrar elementos con find_element***
