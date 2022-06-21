@@ -1,0 +1,74 @@
+***Clase 1 Por qué aprender Selenium y qué verás***
+
+
+***Clase 2 Historia de Selenium***
+
+¿Qué es Selenium?
+Es una SUIT de herramientas para la automatización de navegadores Web.
+El objetivo de Selenium NO fue para el Testing ni para el Web Scraping (aunque se puede usar para eso), por lo tanto, no es el más optimo para estas actividades.
+Protocolo: WebDriver, herramienta que se conecta a un API.
+Selenium WebDriver es la herramienta que utilizaremos en el curso.
+-Selenium NO es un Software, ES una SUIT de Softwares.
+*DDT: Data Drive Testing: Ingresar datos para que realice varias pruebas (sin intervención humana).
+
+***Clase 3 Otras herramientas de testing y optimización***
+***Clase 4 Configurar entorno de trabajo***
+
+***Clase 5 Compatibilidad con Python 3.9 y aprendiendo a utilizar múltiples versiones****
+
+***Clase 6 ¡Hola, mundo!***
+
+
+Utilizar comandos básicos
+***Clase 7 Encontrar elementos con find_element***
+
+***Clase 8 Preparar assertions y test suites***
+
+
+
+***Clase 9 Entender las clases WebDriver y WebElement***
+
+
+Interactuar con elementos
+***Clase 10 Manejar form, textbox, checkbox y radio button***
+
+
+***Clase 11 Manejar dropdown y listas***
+
+
+***Clase 12 Manejar alert y pop-up***
+
+***Clase 13 Automatizar navegación***
+
+
+Sincronizar pruebas
+***Clase 14 Demora implícita y explícita***
+
+
+***Clase 15 Condicionales esperadas***
+
+Retos
+***Clase 16 Agregar y eliminar elementos***
+
+***Clase 17 Agregar y eliminar elementos***
+
+***Clase 18 Elementos dinámicos***
+
+***Clase 19 Controles dinámicos***
+
+
+***Clase 20 Typos***
+
+***Clase 21 Ordenar tablas***
+
+
+Metodologías de Trabajo
+***Clase 22 Data Driven Testing (DDT)***
+
+***Clase 23 Page Object Model (POM)***
+
+
+Cierre del curso
+***Clase 24 Realizar una prueba técnica***
+
+***Clase 25 Conclusiones***
