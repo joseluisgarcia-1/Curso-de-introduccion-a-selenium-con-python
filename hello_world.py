@@ -11,8 +11,9 @@ class HelloWorld(unittest.TestCase):
     """
 
     #@classmethod
-    #def setUp(cls):
+    #def setUpClass(cls):
     def setUp(self):
+        #en esta línea se le pasa el nombre del navegador donde se va hacer la prueba y la ruta de ejecución
         self.driver = webdriver.Chrome(executable_path= r'E:\descargas\chromedriver.exe')
         #cls.driver = webdriver.Chrome(executable_path= r'E:\descargas\chromedriver.exe')
         driver = self.driver
@@ -31,7 +32,7 @@ class HelloWorld(unittest.TestCase):
         self.driver.get('https://www.marca.com')
 
     #@classmethod
-    #def tearDown(cls):
+    #def tearDownClass(cls):
     #Esta función lo que hace es cerrar la ventana del navegador, luego de cada prueba
     def tearDown(self):
         #cls.driver.quit()
