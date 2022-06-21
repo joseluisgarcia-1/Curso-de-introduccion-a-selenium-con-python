@@ -84,7 +84,34 @@ Selenium WebDriver es la herramienta que utilizaremos en el curso.
 
 ***Clase 3 Otras herramientas de testing y optimización***
 
+-Puppeter
+    Pros
 
+    - Soporte por parte google
+    - Datos del performance Analysis de Chrome
+    - Mayor control de Chrome
+    - No requiere drivers externos
+
+    Contras
+
+    - Funciona solo en Chrome y con JavaScript (aunque técnicamente puppeteer se puede utilizar con Firefox Nightly)
+    - Comunidad pequeña
+
+- Cypress.io
+    Pros
+
+    - Comunidad emergente
+    - Buena documentación con Ejemplos
+    - Bastante ágil en pruebas E2E
+        - Es decir evaluar un proceso de principio a fin es ideal para ello
+    - Orientado a desarrolladores
+        - Se puede usar sin tener muchos conocimientos de testing o automatización
+    - Excelente manejo de asincronismo
+        - Lo que hace que las esperas puedan ser dinámicas y se puedan manejar de una forma muy sencilla
+
+    Contras
+    - Funciona solo en Chrome y con JavaScript
+    - Pruebas en paralelo solo en versión pago
 
 ***Clase 4 Configurar entorno de trabajo***
 
