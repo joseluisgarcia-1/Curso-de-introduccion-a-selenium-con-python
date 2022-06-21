@@ -115,7 +115,8 @@ Selenium WebDriver es la herramienta que utilizaremos en el curso.
 
 ***Clase 4 Configurar entorno de trabajo***
 
-
+- pip install selenium
+- pip install pyunitreport
 
 ***Clase 5 Compatibilidad con Python 3.9 y aprendiendo a utilizar múltiples versiones****
 
