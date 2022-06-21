@@ -32,11 +32,14 @@ class HelloWorld(unittest.TestCase):
 
     #@classmethod
     #def tearDown(cls):
+    #Esta función lo que hace es cerrar la ventana del navegador, luego de cada prueba
     def tearDown(self):
         #cls.driver.quit()
         self.driver.quit()
 
 
 if __name__ =='__main__':
+    """el testrRunner es el que genera los reportes correspondientes, donde el output indica el nombre de la carpeta
+    donde van a estár los reportes, y el report_name indica el nombre del archivo del reporte"""
     unittest.main(verbosity=2, testRunner=HTMLTestRunner(output='reportes', 
         report_name='hello-world-report'))
