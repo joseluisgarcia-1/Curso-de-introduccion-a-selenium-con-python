@@ -12,6 +12,12 @@ Es compatible con:
     - Ruby
 Con Go no es compatible de forma nativa
 
+Inició en 2004
+- Selenium IDE es una extensión de firefo pero que ahora está disponible en Google Chrome, y sirve para grabar, repetir, importar
+    y exportar automatizaciones, através de clicks sin necesidad de código
+- Luego se dieron cuenta que Selenium era importante que se extienda a más lenguajes y navegadores por 
+    eso se creó el protocolo WebDriver el cual permite conectarse a una API de alto nivel para ejecutar comandos dentro del navegador web
+
 ¿Qué es Selenium?
 Es una SUIT de herramientas para la automatización de navegadores Web.
 El objetivo de Selenium NO fue para el Testing ni para el Web Scraping (aunque se puede usar para eso), por lo tanto, no es el más optimo para estas actividades.
@@ -20,46 +26,61 @@ Selenium WebDriver es la herramienta que utilizaremos en el curso.
 -Selenium NO es un Software, ES una SUIT de Softwares.
 *DDT: Data Drive Testing: Ingresar datos para que realice varias pruebas (sin intervención humana).
 
-Selenium IDE
+- Selenium IDE
 
-Pros
+    Pros
 
-Excelente para iniciar
-No requiere saber programar
-Exporta scripts para Selenium RC y Selenium WebDriver
-Genera reportes
-Contras
+    - Excelente para iniciar
+    - No requiere saber programar
+    - Exporta scripts para Selenium RC y Selenium WebDriver
+    - Genera reportes
+        - Ejemplo:
+            - Cuánto se demoró una prueba
+            - Qué acciones se tomaron
+            - Qué fallos hubo durante las pruebas
+            - Entre otros
 
-Disponible para Google Chrome y FireFox
-No soporta DDT. No permite colocar datos para múltiples pruebas.
-Selenium RC
+    Contras
 
-Pros
+    - Disponible para Google Chrome y FireFox
+    - No soporta DDT. No permite colocar datos para múltiples pruebas.
 
-Soporte para
-Varias plataformas, navegadores y lenguajes.
-Operaciones lógicas y condicionales
-DDT
-Posee una API madura
-Contras
+- Selenium RC (Remote Control)
 
-Complejo de instalar
-Necesita de un servidor corriendo.
-Comandos redundantes en una API
-Navegación no tan realista
-Selenium Web Driven
+    Pros
 
-Pros
+    - Soporte para varias plataformas, navegadores y lenguajes.
+    - Operaciones lógicas y condicionales
+    - DDT
+    - Posee una API madura
+        - Con lo cual podemos hacer que haga más efectivas las pruebas
 
-Soporte para múltiples lenguajes
-Facil de instalar.
-Comunicación directa con el navegador.
-Interacción más realista.
-Contra
+    Contras
 
-No soporta nuevos navegadores tan rápido.
-No genera reportes o resultados de pruebas.
-Requiere de saber programar.
+    - Complejo de instalar
+    - Necesita de un servidor con el cual se comunica antes de enviar interacciones al navegador
+    - Comandos redundantes en una API
+    - Navegación no tan realista, es muy rigida
+
+- Selenium WebDriver
+
+    Pros
+
+    - Soporte para múltiples lenguajes
+    - Facil de instalar.
+    - Comunicación directa con el navegador.
+    - Interacción más realista.
+    
+    Contras
+
+    - No soporta nuevos navegadores tan rápido.
+    - No genera reportes o resultados de pruebas.
+    - Requiere de saber programar.
+
+- Selenium Grid
+    No es ni superior ni inferior al resto de versiones de Selenium pero si es un complemento que permite trabajar junto Selenium Rc
+    para ejecutar automatizaciones en distintos navegadores, sistemas operativos y otras circunstancias en paralelo, lo cua permite
+    que si tenemos un script de pruebas lo corramos en distintos ambientes de manera simultanea
 
 ***Clase 3 Otras herramientas de testing y optimización***
 
@@ -67,13 +88,20 @@ Requiere de saber programar.
 
 ***Clase 4 Configurar entorno de trabajo***
 
+
+
 ***Clase 5 Compatibilidad con Python 3.9 y aprendiendo a utilizar múltiples versiones****
+
+
 
 ***Clase 6 ¡Hola, mundo!***
 
 
+
 Utilizar comandos básicos
 ***Clase 7 Encontrar elementos con find_element***
+
+
 
 ***Clase 8 Preparar assertions y test suites***
 
@@ -82,11 +110,14 @@ Utilizar comandos básicos
 ***Clase 9 Entender las clases WebDriver y WebElement***
 
 
+
 Interactuar con elementos
 ***Clase 10 Manejar form, textbox, checkbox y radio button***
 
 
+
 ***Clase 11 Manejar dropdown y listas***
+
 
 
 ***Clase 12 Manejar alert y pop-up***
