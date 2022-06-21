@@ -198,7 +198,19 @@ Esta es una librería de python con el que vamos a realizar pruebas unitarias pa
 Utilizar comandos básicos
 ***Clase 7 Encontrar elementos con find_element***
 
+Cómo identificar ciertas etiquetas html que tiene un sitio web
+    - ID
+    - Nombre del atributo
+    - Nombre de la clase
+    - Nombre de la etiqueta
+    - XPath
+        - Nodos de xml que nos da la ubicación exacta de un elemento
+    - Selector de CSS
+    - Texto del link
+    - Texto parcial del link
 
+En ocasiones algunos sitios pueden tener bloqueos regionales o no estar disponibles por la alta cantidad de solicitudes que llegan a tener.
+Si el sitio de práctica no abre, puedes intentar ingresando a OneStepCheckout Responsive Demo.
 
 ***Clase 8 Preparar assertions y test suites***
 
@@ -253,3 +265,7 @@ Cierre del curso
 ***Clase 24 Realizar una prueba técnica***
 
 ***Clase 25 Conclusiones***
+
+RECOMENDADOS DE LA CLASE:
+
+https://platzi.com/cursos/web-scraping/
