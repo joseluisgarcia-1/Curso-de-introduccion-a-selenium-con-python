@@ -214,7 +214,11 @@ Si el sitio de práctica no abre, puedes intentar ingresando a OneStepCheckout R
 
 ***Clase 8 Preparar assertions y test suites***
 
+Assertions:
+    - Métodos que permiten validar un valor esperado en la ejecución del test. Si el resultado es verdadero el test continúa, en caso contrario, falla y termina
 
+Test suites:
+    - Colección de test unificados en una sola prueba, permitiendo tener resultados grupales e individuales
 
 ***Clase 9 Entender las clases WebDriver y WebElement***
 
