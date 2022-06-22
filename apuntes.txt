@@ -337,9 +337,12 @@ Interactuar con elementos
 
 ***Clase 11 Manejar dropdown y listas***
 
-
+Los dropdown son menús desplegables donde puedes encontrar diversa opciones y puedes acceder a ellas para elegirlas de forma automatizada
+ya se por el texto que está visible, el orden del índice o también por el valor que tiene asignado en el código html
 
 ***Clase 12 Manejar alert y pop-up***
+
+Estos pueden solicitar la confirmación o negación de algo, incluso escribir información en el teclado para enviarla
 
 ***Clase 13 Automatizar navegación***
 
