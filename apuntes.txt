@@ -345,7 +345,11 @@ ya se por el texto que está visible, el orden del índice o también por el val
 Estos pueden solicitar la confirmación o negación de algo, incluso escribir información en el teclado para enviarla
 
 ***Clase 13 Automatizar navegación***
+- Implícita:
+    Busca uno o varios elementos en el DOM si no se encuentran disponibles por la cantidad de tiempo asignado
 
+- Explícita:
+    Utiliza condiciones de espera determinadas y continúa hasta que se cumplan, es decir, primero se encuentre esa condición, se cumpla y con ello puede continuar
 
 Sincronizar pruebas
 ***Clase 14 Demora implícita y explícita***
