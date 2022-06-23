@@ -440,6 +440,17 @@ El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de auto
 Metodologías de Trabajo
 ***Clase 21 Data Driven Testing (DDT)***
 
+-TDD:
+    - Desarrollar código en base a pruebas para que puedas cumplirlas
+    esto ayuda a que el software en el futuro conforme va avanzando su desarrollo va cumpliendo satisfactoriamente las pruebas
+
+DDT(Data Driven Testing):
+    - Desarrollar pruebas en base a código ya existente para validar en qué escenarios pasan o fallan
+    Es un poco opuesto el proceso a TDD, ya que vamos a escribir pruebas en base a software que ya está escrito, de esta forma
+    podemos saber en que escenarios el software puede cumplir o fallar
+    
+
+
 ***Clase 22 Page Object Model (POM)***
 
 
