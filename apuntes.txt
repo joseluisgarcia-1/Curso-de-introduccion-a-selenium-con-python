@@ -401,6 +401,17 @@ ver archivo clase16_add_remove_elements.py
 
 ***Clase 17 Agregar y eliminar elementos***
 
+Controles dinámicos ya que este se puede o no mostrar en pantalla bajo ciertas condiciones especiales
+
+El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de automatización es el siguiente
+    - the-internet.herokuapp.com
+        - vamos a trabajar con el Disappering Elements
+
+En este ejercicio la página lo que hace es que recargamos y recargamos la página hasta que aparezca un botón y eso
+es lo que vamos a hacer mediante código
+
+revisar archivo clase17_dynamic_elements.py
+
 ***Clase 18 Elementos dinámicos***
 
 ***Clase 19 Controles dinámicos***
