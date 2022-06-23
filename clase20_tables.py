@@ -19,7 +19,7 @@ class Tables(unittest.TestCase):
             header = driver.find_element_by_xpath(f'//*[@id="table1"]/thead/tr/th[{i+1}]/span')
             table_data[i].append(header.text)
             for j in range(4):
-                row_data = driver.find_element_by_xpath(f'//*[@id="table1"]/tbody/tr[{j+1}]/td[1]')
+                row_data = driver.find_element_by_xpath(f'//*[@id="table1"]/tbody/tr[{j+1}]/td[{i+1}]')
                 table_data[i].append(row_data.text)
         print(table_data)
     
