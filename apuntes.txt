@@ -399,20 +399,17 @@ El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de auto
 
 ver archivo clase16_add_remove_elements.py
 
-***Clase 17 Agregar y eliminar elementos***
+***Clase 17 Elementos dinámicos***
 
-Controles dinámicos ya que este se puede o no mostrar en pantalla bajo ciertas condiciones especiales
+Elementos dinámicos ya que este se puede o no mostrar en pantalla bajo ciertas condiciones especiales
 
 El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de automatización es el siguiente
     - the-internet.herokuapp.com
         - vamos a trabajar con el Disappering Elements
 
-En este ejercicio la página lo que hace es que recargamos y recargamos la página hasta que aparezca un botón y eso
-es lo que vamos a hacer mediante código
-
 revisar archivo clase17_dynamic_elements.py
 
-***Clase 18 Elementos dinámicos***
+***Clase 18 Controles dinámicos***
 
 Controles dinámicos los cuales al interactuar con ellos su funcionalidad puede variar de acuerdo al tiempo, es decir, 
 tenemos que esperar antes de seguirlos manejando, por lo que vamos a usar esperas
@@ -421,7 +418,9 @@ El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de auto
     - the-internet.herokuapp.com
         - vamos a trabajar con el Dynamic Controls
 
-***Clase 19 Controles dinámicos***
+revisar archivo clase18_dynamic_controls.py
+
+***Clase 19 Typos***
 
 Vamos a validar que el texto del sitio web es idéntico a uno que esperamos
 
@@ -429,21 +428,25 @@ El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de auto
     - the-internet.herokuapp.com
         - vamos a trabajar con el Typos
 
-***Clase 20 Typos***
+revisar archivo clase19_typos.py
 
-***Clase 21 Ordenar tablas***
+***Clase 20 Ordenar tablas***
 
+Vamos a trabajar para ordenarla y obtener información de ellas
+El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de automatización es el siguiente
+    - the-internet.herokuapp.com
+        - vamos a trabajar con el Soportable Data Tables
 
 Metodologías de Trabajo
-***Clase 22 Data Driven Testing (DDT)***
+***Clase 21 Data Driven Testing (DDT)***
 
-***Clase 23 Page Object Model (POM)***
+***Clase 22 Page Object Model (POM)***
 
 
 Cierre del curso
-***Clase 24 Realizar una prueba técnica***
+***Clase 23 Realizar una prueba técnica***
 
-***Clase 25 Conclusiones***
+***Clase 24 Conclusiones***
 
 RECOMENDADOS DE LA CLASE:
 
