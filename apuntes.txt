@@ -355,6 +355,8 @@ Sincronizar pruebas
 ***Clase 14 Demora implícita y explícita***
 
 
+***Clase 15 Condicionales esperadas***
+
 - element_to_be_clickable(locator)	
     Espera a que el elemento sea visible y habilitado para hacer clic en el mismo	
         WebDriverWait(self.driver,10).until(expected_conditions.element_to_be_clickable((By.NAME,“accept_button”)))
@@ -387,10 +389,10 @@ Sincronizar pruebas
     Espera a que el elemento indicado por su selector esté en el DOM, sea visible y que su alto y ancho sean mayores a cero	
         WebDriverWait(self.driver,10).until(expected_conditions.visibility_of_element_located((By.ID,“firstname”)))
 
-***Clase 15 Condicionales esperadas***
-
 Retos
 ***Clase 16 Agregar y eliminar elementos***
+
+
 
 ***Clase 17 Agregar y eliminar elementos***
 
