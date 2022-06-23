@@ -423,6 +423,11 @@ El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de auto
 
 ***Clase 19 Controles dinámicos***
 
+Vamos a validar que el texto del sitio web es idéntico a uno que esperamos
+
+El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de automatización es el siguiente
+    - the-internet.herokuapp.com
+        - vamos a trabajar con el Typos
 
 ***Clase 20 Typos***
 
