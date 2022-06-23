@@ -1,31 +1,27 @@
-import unittest, csv
+import csv, unittest
 from ddt import ddt, data, unpack
 from selenium import webdriver
 
-def file_csv(file_name):
+def get_data(file_name):
     rows = []
     #abrimos el archivo en modo lectura(r)
     data_file = open(file_name, 'r')
-    reader = csv.reader(data_file)
-    next(reader, None)
-
-    for row in reader:
+    read = csv.reader(data_file)
+    next(read, None)
+    for row in read:
         rows.append(row)
     return rows
 
 @ddt
 class SearchDDT(unittest.TestCase):
-    #en la @data están incluidos los términos que vamos a buscar y la cantidad de elementos que esperamos como resultado
-    #usamos el @unpcack para desempaquetar la tupla @data y puedan ser consultadas en forma individual
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path=r'E:\Descargas\chromedriver.exe')
         driver = self.driver
         driver.implicitly_wait(50)
         driver.maximize_window()
-        driver.get('http://demo-store.seleniumacademy.com/')
-    
-    
-    @data(*file_csv('testdata.csv'))
+        driver.get('https://demo-store.seleniumacademy.com/')
+        
+    @data(*get_data('testdata.csv'))
     @unpack
     def test_search_ddt(self, search_value, expected_count):
         driver = self.driver
