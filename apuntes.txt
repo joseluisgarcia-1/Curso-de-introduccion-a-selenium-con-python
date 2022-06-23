@@ -414,6 +414,13 @@ revisar archivo clase17_dynamic_elements.py
 
 ***Clase 18 Elementos dinámicos***
 
+Controles dinámicos los cuales al interactuar con ellos su funcionalidad puede variar de acuerdo al tiempo, es decir, 
+tenemos que esperar antes de seguirlos manejando, por lo que vamos a usar esperas
+
+El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de automatización es el siguiente
+    - the-internet.herokuapp.com
+        - vamos a trabajar con el Dynamic Controls
+
 ***Clase 19 Controles dinámicos***
 
 
