@@ -392,7 +392,12 @@ Sincronizar pruebas
 Retos
 ***Clase 16 Agregar y eliminar elementos***
 
+En este reto vamos a agregar y eliminar elementos de un sitio web a través de la automatización de los clicks e identificando los elementos
+El sitio con el que vamos a trabajar donde vamos a poder encontrar retos de automatización es el siguiente
+    - the-internet.herokuapp.com
+        - vamos a trabajar con el Add/Remove Elements
 
+ver archivo clase16_add_remove_elements.py
 
 ***Clase 17 Agregar y eliminar elementos***
 
