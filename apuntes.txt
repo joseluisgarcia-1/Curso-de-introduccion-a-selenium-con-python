@@ -449,10 +449,13 @@ DDT(Data Driven Testing):
     Es un poco opuesto el proceso a TDD, ya que vamos a escribir pruebas en base a software que ya está escrito, de esta forma
     podemos saber en que escenarios el software puede cumplir o fallar
     
-
-
 ***Clase 22 Page Object Model (POM)***
 
+Esto funciona que en lugar de que tengamos las pruebas en un solo archivo manejaremos archivos independientes
+- Beneficios
+    - Crea un alto nivel de abstracción para minimizar cambios en las pruebas si los desarrolladores modifican el sitio
+    - Crea código reutilizable que se puede utilizar en múltiples pruebas
+    - Las pruebas son más legibles, flexibles y vigentes
 
 Cierre del curso
 ***Clase 23 Realizar una prueba técnica***
