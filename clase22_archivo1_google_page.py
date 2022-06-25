@@ -32,4 +32,4 @@ class GooglePage(object):
 
     def search(self, keyword):
         self.type_search(keyword)
-        self.click_submit
+        self.click_submit()
