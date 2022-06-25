@@ -209,6 +209,10 @@ Cómo identificar ciertas etiquetas html que tiene un sitio web
     - Texto del link
     - Texto parcial del link
 
+Xpath = Nos permite identificar elementos cuando no hay algo que es lo suficientemente explícito, y esa ruta nos muestra donde se encuentra
+el elemento
+implicitly_wait = añade una pausa, espera máximo 15 segundos para que ocurra ese cambios antes de ejecutar la prueba
+
 En ocasiones algunos sitios pueden tener bloqueos regionales o no estar disponibles por la alta cantidad de solicitudes que llegan a tener.
 Si el sitio de práctica no abre, puedes intentar ingresando a OneStepCheckout Responsive Demo.
 
@@ -265,7 +269,8 @@ Propiedad/Atributo
                 driver.title
 
 Clase WebElement
-Esta clase nos permite interactuar específicamente con elementos de los sitios web como textbox, text area, button, radio button, checkbox, etc.
+Esta clase nos permite interactuar específicamente con elementos de los sitios web 
+como textbox, text area, button, radio button, checkbox, etc.
 
 Propiedades más comunes de la clase WebElement
 
