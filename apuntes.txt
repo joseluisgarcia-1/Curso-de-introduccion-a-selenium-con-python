@@ -477,6 +477,16 @@ Prueba en mercado libre:
 
 ***Clase 24 Conclusiones***
 
+- Automatizar el navegador para testing, scraping, tareas repetitivas, etc
+- Automatizar casos de pruebas, suites de pruebas y gerar sus reportes
+- Aplicar DDT y POM a tus scripts
+- Puedes hacer,pruebas unitaris, funcionales, casos de prueba, etc.
+- Puedes usar DDT(Data Driven Testing) ó Page Object Model(POM) para que las prueas se mantengan a lo largo del tiempo
+
+- Consejos de pruebas:
+    - Probar sitios con autorización o diseñados para esto(buscar sitios para pruebas de automatización con selenium)
+    - Hacer buen uso de las automatizaciones
+    - Aún puedes hacer más: tienes Selenium Grid para pruebas en paralelo y Appium para mobile testing
 RECOMENDADOS DE LA CLASE:
 
 https://platzi.com/cursos/web-scraping/
